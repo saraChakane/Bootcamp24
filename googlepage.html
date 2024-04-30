@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    
+  </head>
+  <body>
+    <header class="header" id="Header">
+        <div class="header__content">
+        </a>
+        <a class="header__content-item" href="">
+          <span class="header__item-text">Gmail</span>
+        </a>
+        <a class="header__content-item" href="">
+          <span class="header__item-text">images</span>
+        </a>        
+    <div class="container">
+      <div>
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google Logo"
+          class="logo"
+        />
+        <form action="https://www.google.com/search" method="get">
+          <input
+            type="text"
+            name="r"
+            class="search-bar"
+            placeholder="Google Search"
+            autofocus
+          />
+          <button type="submit" class="search-button">Google Search</button>
+        </form>
+      </div>
+    </div>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        direction: ltr;
+      }
+
+      .logo {
+        margin-bottom: 20px;
+        margin-left: 90px;
+      }
+
+      .search-bar {
+        width: 400px;
+        padding: 5px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        outline: none;
+      }
+
+      .search-button {
+        padding: 10px 20px;
+        background-color: #2a67ca;
+        color: white;
+        border: none;
+        border-radius: 24px;
+        cursor: pointer;
+      }
+
+      .search-button:hover {
+        background-color: #7ba4e6;
+      }
+    .header {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding: 5px 0;
+}
+.header__content {
+  width: 1250px;
+  height: 100%;
+  margin-right: 150px;
+  margin-top: 5px;
+  
+  
+}
+.header__item-text {
+    color: rgb(19, 10, 10);
+    font-size: 16px;
+    margin-right: 5px;
+    justify-content: space-between;
+  }
+    </style>
+  </body>
+</html>
